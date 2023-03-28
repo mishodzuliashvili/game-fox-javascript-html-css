@@ -7,6 +7,7 @@
     "dev": "parcel src/index.html",
     "lint": "eslint --ignore-path ./.gitignore --fix \"./**/*.{js,ts}\"",
     "lint:check": "eslint --ignore-path ./.gitignore --quiet \"./**/*.{js,ts}\"",
+    "build": "parcel build",
     "test": "jest"
   },
   "keywords": [],
